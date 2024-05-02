@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #00fff0;
+}
+#container{
+    width: 500px;
+    height: 600px;
+    background-color: #293447;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#puntuacion{
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#pantalla{
+    width: 100%;
+    height: 100%;
+    background-color: #78AB46;
+    display: grid;
+    grid-template: repeat(30,1fr) / repeat(30,1fr);
+}
